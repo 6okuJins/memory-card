@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.504f1ae2.css",
+    "main.js": "/memory-card/static/js/main.3ace8e03.js",
+    "static/media/Agumon.png": "/memory-card/static/media/Agumon.ade57c0c3fe0e416ff30.png",
+    "static/media/Tentomon.png": "/memory-card/static/media/Tentomon.9f8ceac3cd56ef769f98.png",
+    "static/media/Gatomon.png": "/memory-card/static/media/Gatomon.dd997909e2175abe6c0a.png",
+    "static/media/Gabumon.png": "/memory-card/static/media/Gabumon.332bd1ea76200111ae55.png",
+    "static/media/Palmon.png": "/memory-card/static/media/Palmon.0905a4727bb4afb23670.png",
+    "static/media/Patamon.png": "/memory-card/static/media/Patamon.22d0a1b8dd0fdd6bf785.png",
+    "static/media/Biyomon.png": "/memory-card/static/media/Biyomon.b417b68d2aab9f0026e8.png",
+    "static/media/Gomamon.png": "/memory-card/static/media/Gomamon.04acd56b82e05942841b.png",
+    "index.html": "/memory-card/index.html",
+    "main.504f1ae2.css.map": "/memory-card/static/css/main.504f1ae2.css.map",
+    "main.3ace8e03.js.map": "/memory-card/static/js/main.3ace8e03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.504f1ae2.css",
+    "static/js/main.3ace8e03.js"
+  ]
+}

@@ -5,7 +5,7 @@ const Score = (props) => {
 
   return (
     <div className='score'>
-      {props.score} | {props.best}
+      Score {props.score} | Best {props.best}
     </div>
   );
 }

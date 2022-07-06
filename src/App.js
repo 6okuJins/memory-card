@@ -4,12 +4,21 @@ import Main from './components/Main';
 function App() {
     const [ score, setScore ] = useState(0);
     const [ best, setBest ] = useState(0);
+    const [ clicked, setClicked ] = useState(new Set());
 
-    const incScore = () => {
-        setScore(score + 1);
-    }
-    const incBest = () => {
-        setBest(best + 1);
+    const handleClick = (e) => {
+        e.preventDefault();
+        const digimonName = e.target.id;
+        console.log('hi');
+        if (!clicked.has(digimonName)) {
+            setScore(score + 1);
+            setClicked(prevState => new Set(prevState).add(digimonName));
+        }
+        else {
+            setScore(0);
+            setClicked(new Set());
+        }
+        setBest(Math.max(score, best));
     }
     return ( 
     <div className = "App" >
@@ -18,8 +27,7 @@ function App() {
         best={best}
         />
         <Main
-        incScore={incScore}
-        incBest={incBest}
+        setClicked={handleClick}
         />
     </div>
     );

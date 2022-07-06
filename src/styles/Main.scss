@@ -1,0 +1,15 @@
+.Main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.Card {
+  height: 400px;
+  width: 400px;
+  * {
+    pointer-events: none;
+  }
+  img {
+    height: 80%;
+    width: 100%;
+  }
+}
